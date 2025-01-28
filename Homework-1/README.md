@@ -1,8 +1,8 @@
-**Question#1 **
+##**Question#1**
 
 <img width="564" alt="Screenshot 2025-01-27 at 4 46 35 PM" src="https://github.com/user-attachments/assets/e7afd777-fa31-4289-869f-95ea42b45481" />
 
-**Question#3**
+##**Question#3**
 
 Jupyter Notebook (code to load the data)
 
@@ -21,7 +21,7 @@ SQL:
   		AND lpep_dropoff_datetime < '2019-11-01'
 ``` 
 
-**Question#4**
+##**Question#4**
 
   SQL:
 
@@ -36,7 +36,7 @@ SQL:
   LIMIT 1
 ```
 
-**Question#5**
+##**Question#5**
 
   SQL:
 
@@ -52,7 +52,7 @@ SQL:
   ORDER BY total_amount DESC
 ```
 
-**Question#6**
+##**Question#6**
 
   SQL:
 
@@ -71,6 +71,6 @@ SQL:
   LIMIT 1
 ```
 
-**Question#7**
+##**Question#7**
 
 terraform init, terraform apply -auto-approve, terraform destroy
