@@ -1,10 +1,10 @@
-Question#1 
+**Question#1 **
 
 <img width="564" alt="Screenshot 2025-01-27 at 4 46 35 PM" src="https://github.com/user-attachments/assets/e7afd777-fa31-4289-869f-95ea42b45481" />
 
-Question#3
+**Question#3**
 
-Jupyter Notebook (code)
+Jupyter Notebook (code to load the data)
 
 SQL:
 
@@ -19,7 +19,7 @@ SQL:
   		AND lpep_pickup_datetime < '2019-11-01' 
   		AND lpep_dropoff_datetime < '2019-11-01' 
 
-Question#4
+**Question#4**
 
   SQL:
 
@@ -32,7 +32,7 @@ Question#4
   ORDER BY max_trip_distance DESC
   LIMIT 1
 
-Question#5
+**Question#5**
 
   SQL:
   
@@ -46,7 +46,7 @@ Question#5
   HAVING SUM(green_tripdata.total_amount) > 13000
   ORDER BY total_amount DESC
 
-Question#6
+**Question#6**
 
   SQL:
   
@@ -63,6 +63,6 @@ Question#6
   ORDER BY max_tip DESC
   LIMIT 1
 
-Question#7
+**Question#7**
 
 terraform init, terraform apply -auto-approve, terraform destroy
