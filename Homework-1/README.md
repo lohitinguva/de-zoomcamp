@@ -8,7 +8,7 @@ Jupyter Notebook (code to load the data)
 
 SQL:
 
-  ```
+  ``` SQL
   SELECT
       SUM(CASE WHEN trip_distance <= 1 THEN 1 ELSE 0 END) AS "Up to 1 mile",
       SUM(CASE WHEN trip_distance > 1 AND trip_distance <= 3 THEN 1 ELSE 0 END) AS "1 to 3 miles",
