@@ -25,7 +25,7 @@ SQL:
 
   SQL:
 
-```
+``` SQL
   SELECT
       DATE(lpep_pickup_datetime) AS pickup_date,
       MAX(trip_distance) AS max_trip_distance
@@ -40,7 +40,7 @@ SQL:
 
   SQL:
 
-  ```
+  ``` SQL
   SELECT
       zones."Zone" AS pickup_zone,
       SUM(green_tripdata.total_amount) AS total_amount
@@ -56,7 +56,7 @@ SQL:
 
   SQL:
 
-  ```
+  ``` SQL
   SELECT
       dropoff_zones."Zone" AS dropoff_zone,
       MAX(green_tripdata.tip_amount) AS max_tip
