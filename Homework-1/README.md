@@ -25,6 +25,7 @@ SQL:
 
   SQL:
 
+```
   SELECT
       DATE(lpep_pickup_datetime) AS pickup_date,
       MAX(trip_distance) AS max_trip_distance
@@ -33,11 +34,13 @@ SQL:
   GROUP BY pickup_date
   ORDER BY max_trip_distance DESC
   LIMIT 1
+```
 
 **Question#5**
 
   SQL:
-  
+
+  ```
   SELECT
       zones."Zone" AS pickup_zone,
       SUM(green_tripdata.total_amount) AS total_amount
@@ -47,11 +50,13 @@ SQL:
   GROUP BY zones."Zone"
   HAVING SUM(green_tripdata.total_amount) > 13000
   ORDER BY total_amount DESC
+```
 
 **Question#6**
 
   SQL:
-  
+
+  ```
   SELECT
       dropoff_zones."Zone" AS dropoff_zone,
       MAX(green_tripdata.tip_amount) AS max_tip
@@ -64,6 +69,7 @@ SQL:
   GROUP BY dropoff_zone
   ORDER BY max_tip DESC
   LIMIT 1
+```
 
 **Question#7**
 
